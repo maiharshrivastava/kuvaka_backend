@@ -55,18 +55,6 @@ npm install
 npm start
 ```
 
----
-
-## 📈 **Future Enhancements**
-
-Here are some improvements that could be made in the future:
-
-1. **Database Integration**: Integrate **MongoDB** to store chat messages and user data.
-2. **User Authentication**: Implement a login system to enhance security for users.
-3. **API Security**: Use **JWT** for secure API communication between the client and server.
-4. **Environment Variables**: Store sensitive information (e.g., ports, secret keys) in a `.env` file for better configuration management.
-
----
 
 ## 🙏 **Acknowledgment**
 
