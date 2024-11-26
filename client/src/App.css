@@ -1,0 +1,214 @@
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e8f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-container {
+  width: 140%;
+  max-width: 1200px;
+  margin: 50 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.chat-container:hover {
+  transform: scale(1.02);
+}
+
+/* Auth Components */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.auth-card {
+  background-color: #ffffff;
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.15);
+  width: 900px;
+  text-align: center;
+}
+
+.auth-card h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.auth-inputs input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.auth-inputs input:focus {
+  border-color: #ff6a00;
+  outline: none;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.auth-buttons button {
+  flex-grow: 1;
+  padding: 16px;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-buttons button:first-child {
+  background-color: #00bfae;
+}
+
+.auth-buttons button:last-child {
+  background-color: #ff6a00;
+}
+
+.auth-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.auth-buttons button:first-child:hover {
+  background-color: #00a39a;
+}
+
+.auth-buttons button:last-child:hover {
+  background-color: #ee0979;
+}
+
+/* Join Chat Room */
+.join-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.join-container h2 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.join-container input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}
+
+.join-container button {
+  padding: 14px 25px;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-container button:hover {
+  background-color: #ee0979;
+}
+
+/* Message Display */
+.messages {
+  flex-grow: 1;
+  margin-top: 25px;
+  overflow-y: auto;
+  background-color: #fafafa;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.message {
+  margin-bottom: 20px;
+  padding: 16px;
+  border-radius: 15px;
+  max-width: 35%;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.sent {
+  background-color: #ff6a00;
+  color: white;
+  margin-left: auto;
+}
+
+.received {
+  background-color: #f1f1f1;
+  color: #495057;
+}
+
+/* Input Area */
+.input-area {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.input-area input {
+  flex-grow: 1;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.input-area input:focus {
+  border-color: #ff6a00;
+}
+
+.input-area button {
+  padding: 14px 25px;
+  background-color: #00bfae;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #00a39a;
+}
