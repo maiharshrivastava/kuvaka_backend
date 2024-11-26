@@ -2,7 +2,7 @@
 
 # **Chat Application**
 
-This is a real-time chat application built using **Node.js**, **Socket.IO**, and **ReactJS**. Developed by **Maihar Shrivastava** for **Kuvaka Technology**.
+This is a real-time chat application created with Node.js, Socket.IO, and ReactJS, developed by **Maihar Shrivastava** as part of the assignment for **Kuvaka Technology**..
 
 ## 🚀 **About Kuvaka Technology**
 
