@@ -72,10 +72,6 @@ Here are some improvements that could be made in the future:
 
 The experience gained during my internship at **SingleBit** helped in creating this application. You can visit their website [here](https://singlebit.xyz/).
 
----
 
-Feel free to reach out for any questions or suggestions! 😊
 
----
 
-You can now copy this and paste it as a plain text README file!
